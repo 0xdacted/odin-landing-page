@@ -13,8 +13,7 @@ body {
     color: white;
     padding: 20px;
     align-items: center; 
-    
-    
+    flex: 1;  
 }
 
 .logo {
@@ -41,7 +40,7 @@ a {
     flex-wrap: wrap;
     background-color: #1f2937;
     justify-content: space-evenly;
-    
+    flex: 1;
     
  }
 
@@ -82,6 +81,7 @@ a {
     gap: 45px;
     justify-content: center;
     margin-bottom: 20px;
+    flex: 1;
  }
 
  .information {
@@ -108,6 +108,7 @@ a {
     flex-flow: column wrap;
    background-color: #E5E7EB;
    padding: 25px;
+   flex: 1;
 }
 
 .quote {
@@ -132,6 +133,7 @@ a {
     justify-content: center;
     color: #E5E7EB;
     gap: 100px;
+    flex: 1;
 }
 
 .call-to-action {
