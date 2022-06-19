@@ -3,7 +3,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .header {
@@ -126,11 +126,12 @@ a {
 }
 .action-container {
     display: flex;
-    padding: 20px;
-    margin: 50px 400px;
+    padding: 20px 60px;
+    margin: 50px 0px;
+    width: 500px;
     background-color:#3882F6;
-    align-items: center;
-    justify-content: center;
+    align-self: center;
+    justify-self: center;
     color: #E5E7EB;
     gap: 100px;
     flex: 1;
