@@ -8,10 +8,10 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: #1f2937;
     color: white;
-    padding: 10px;
+    padding: 20px;
     align-items: center; 
     
     
@@ -114,12 +114,47 @@ a {
     font-size: 36px;
     color: #1f2937;
     font-style: italic;
-    width: 750px;
+    width: 800px;
     align-self: center;
 }
 
 .author {
     align-self: flex-end;
     font-weight: 900;
-    width: 480px;
+    width: 450px;
 }
+.action-container {
+    display: flex;
+    padding: 20px;
+    margin: 50px 400px;
+    background-color:#3882F6;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
+    gap: 100px;
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 900;
+
+}
+
+.action-subtext {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+
+.sign-up-button2 {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 4px 16px;
+    border: 5px;
+    border: 1px solid #F9FAF8;
+    border-radius: 5px;
+    
+}
+
