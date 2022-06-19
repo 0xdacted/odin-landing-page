@@ -45,7 +45,7 @@ a {
 
  .main-text {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
     color: #F9FAF8;
     width: 200px;
     display: flex;
@@ -69,20 +69,33 @@ a {
     margin-bottom: 20px;
  }
 
- img {
+ .image1 {
     width: 290px;
-    height: auto;
+    height: 190px;
  }
 
  .container {
     display: flex;
-    flex-direction: column;
     text-align: center;
-    
+    gap: 52px;
+    justify-content: center;
  }
 
-
- .info {
-    display: flex;
-    flex-direction: column;
+ .information {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900; 
+    padding: 20px;
+    color: #1f2937;
+    flex-wrap: wrap;
+   
  }
+.text {
+    width: 100px;
+    flex-wrap: wrap;
+}
+
+.image {
+   height: 100px;
+   width: 100px;
+}
