@@ -8,11 +8,12 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: #1f2937;
     color: white;
     padding: 10px;
-    align-items: center;  
+    align-items: center; 
+    
     
 }
 
@@ -39,7 +40,8 @@ a {
     display: flex;
     flex-wrap: wrap;
     background-color: #1f2937;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    
     
  }
 
@@ -47,7 +49,7 @@ a {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
-    width: 200px;
+    width: 300px;
     display: flex;
     flex-flow: column wrap; 
  }
@@ -57,7 +59,7 @@ a {
     color: #E5E7EB;
     width: 400px;
     font-weight: 100;
-    margin-top: -55px;
+    
  }
 
  .sign-up-button {
@@ -77,8 +79,9 @@ a {
  .container {
     display: flex;
     text-align: center;
-    gap: 52px;
+    gap: 45px;
     justify-content: center;
+    margin-bottom: 20px;
  }
 
  .information {
@@ -91,11 +94,32 @@ a {
    
  }
 .text {
-    width: 100px;
+    width: 175px;
     flex-wrap: wrap;
 }
 
 .image {
-   height: 100px;
-   width: 100px;
+   height: 150px;
+   width: 175px;
+}
+
+.quote-container {
+    display: flex;
+    flex-flow: column wrap;
+   background-color: #E5E7EB;
+   padding: 25px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    width: 750px;
+    align-self: center;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: 900;
+    width: 480px;
 }
